@@ -37,3 +37,73 @@ button {
     border: none;
     background: none;
 }
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 1000px;
+    background-color: #1992d4;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+}
+
+.home {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
+
+.messages {
+    display: flex;
+}
+
+.history {
+    display: flex;
+}
+
+.tasks {
+    display: flex;
+}
+
+.communities {
+    display: flex;
+}
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings {
+    display: flex;
+}
+
+.support {
+    display: flex;
+}
+
+.privacy {
+    display: flex;
+}
