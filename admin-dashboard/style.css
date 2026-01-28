@@ -51,21 +51,12 @@ button {
     display: flex;
 }
 
-.logo img {
-    height: 60px;
-    width: 60px;
-}
 
 .menu {
     display: flex;
     flex-direction: column;
 }
 
-img {
-    height: 20px;
-    width: 20px;
-    fill: #fff;
-}
 
 .home {
     display: flex;
