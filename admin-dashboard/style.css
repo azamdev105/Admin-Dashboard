@@ -38,15 +38,25 @@ button {
     background: none;
 }
 
+/* Main Container */
+.main-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: repeat(10,1fr);
+}
+
+
+
 /* Sidebar */
 .sidebar {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
-    width: 18%;
-    height: 1000px;
     background-color: #1992d4;
+    grid-column: 1 / 2;
+    grid-row: 1 / 13;
 }
 
 .logo {
@@ -141,3 +151,49 @@ a {
     align-items: center;
     gap: 1rem;
 }
+
+/* Nav */
+.nav {
+    display: grid;
+    background-color: #e0e70f;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+nav {
+    display: grid;
+    background-color: #c00d0d;
+    grid-template-columns: 4fr repeat(3,1fr);
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.search-bar {
+    display: flex;
+    background-color: #fff;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
