@@ -52,7 +52,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 2.2rem;
-    padding: 1rem;
+    padding: clamp(0.3rem,1vw + 0.5rem,1rem);
     background-color: #1a1f2e;
     color: #f8f9fa;
     grid-column: 1 / 5;
@@ -71,19 +71,19 @@ button {
 
 .sidebar-link {
     display: flex;
-    gap: 1rem;
-    font-size: 1.5rem;
+    gap: clamp(0.2rem,1vw + 0.3rem,1rem);
+    font-size: clamp(0.2rem,1vw + 0.3rem,2rem);
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    font-size: 1.7rem;
+    gap: clamp(0.2rem,1vw + 0.3rem,1rem);
+    font-size: clamp(0.3rem,1vw + 0.4rem,1.8rem);
 }
 
 .logo i {
-    font-size: 2.2rem;
+    font-size: clamp(0.3rem,1vw + 1rem,2.5rem);
 }
 
 /* Navbar */
@@ -93,7 +93,6 @@ button {
     grid-row: 1 / 5;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     z-index: 999;
-    
 }
 
 /* Main Content */
