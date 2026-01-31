@@ -88,11 +88,33 @@ button {
 
 /* Navbar */
 .navbar {
+    display: flex;
+    flex-direction: column;
     background-color: #fefdfb;
     grid-column: 5 / 25;
     grid-row: 1 / 5;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     z-index: 999;
+}
+
+.nav-start {
+    display: flex;
+    gap: 1rem;
+    background-color: #949109;
+    width: 100%;
+    padding: 1rem;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-box {
+    height: 30px;
+    width: 30vw;
+    border-radius: 1rem;
+    background: #f5f7fa;
 }
 
 /* Main Content */
