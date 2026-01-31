@@ -47,12 +47,46 @@ button {
     width: 100%;
 }
 
+/* Sidebar */
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    padding: 1rem;
     background-color: #1a1f2e;
+    color: #f8f9fa;
     grid-column: 1 / 5;
     grid-row: 1 / 25;
 }
 
+.sidebar a {
+    color: #f8f9fa;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar-link {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.7rem;
+}
+
+.logo i {
+    font-size: 2.2rem;
+}
+
+/* Navbar */
 .navbar {
     background-color: #fefdfb;
     grid-column: 5 / 25;
@@ -62,11 +96,13 @@ button {
     
 }
 
+/* Main Content */
 .content-section {
     background-color: #f5f7fa;
     grid-column: 5 / 25;
     grid-row: 5 / 25;
 }
+
 
 
 
