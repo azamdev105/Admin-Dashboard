@@ -43,7 +43,7 @@ button {
     display: grid;
     grid-template-columns: repeat(24,1fr);
     grid-template-rows: repeat(24,1fr);
-    min-height: 100vh;   
+    max-height: 100vh;   
     width: 100%;
 }
 
@@ -92,11 +92,10 @@ button {
     flex-direction: column;
     background-color: #fefdfb;
     grid-column: 5 / 25;
-    grid-row: 1 / 5;
+    grid-row: 1 / 6;
     box-shadow: 0 2px 8px rgba(26, 31, 46,0.08);
     z-index: 999;
     padding: 1rem 3rem;
-    gap: 1.5rem;
 }
 
 .wrapper {
@@ -186,9 +185,44 @@ button {
 
 /* Main Content */
 .content-section {
+    display: flex;
     background-color: #f5f7fa;
     grid-column: 5 / 25;
-    grid-row: 5 / 25;
+    grid-row: 6 / 25;
+    padding: 1rem;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #ec0303;
+    min-width: 65%;
+    gap: 1rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.project-card h3 {
+    font-size: 1rem;
+}
+
+.project-card p {
+    font-size: 0.8rem;
+    max-width: 40ch;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fefdfb;
+    gap: 1rem;
 }
 
 
